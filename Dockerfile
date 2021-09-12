@@ -11,5 +11,7 @@ RUN set -ex \
                equivs \
                fakeroot \
                jq \
+               git \
+               ssh \
     && apt-get clean \
     && rm -rf /tmp/* /var/tmp/*
